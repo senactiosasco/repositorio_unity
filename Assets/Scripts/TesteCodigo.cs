@@ -9,12 +9,15 @@ public class TesteCodigo : MonoBehaviour
 
     void Start()
     {
-        
+        FuncaoA();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
+	
+	void FuncaoA(){
+		Debug.Log("Função A");
+	}
 }
