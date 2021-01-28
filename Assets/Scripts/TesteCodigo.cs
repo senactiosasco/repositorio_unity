@@ -17,4 +17,8 @@ public class TesteCodigo : MonoBehaviour
     {
         
     }
+	
+	void FuncaoB(){
+		Debug.Log("Função B");
+	}
 }
