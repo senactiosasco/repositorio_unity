@@ -11,12 +11,17 @@ public class TesteCodigo : MonoBehaviour
     {
 		FuncaoC();
         FuncaoB();
+		FuncaoA();
     }
 
     void Update()
     {
         
     }
+	
+	void FuncaoA(){
+		Debug.Log("Função A");
+	}
 	
 	void FuncaoB(){
 		Debug.Log("Função B");
