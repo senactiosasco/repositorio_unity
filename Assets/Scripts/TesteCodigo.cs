@@ -9,18 +9,25 @@ public class TesteCodigo : MonoBehaviour
 
     void Start()
     {
+		FuncaoA();
+		FuncaoB();
 		FuncaoC();
     }
 
     void Update()
     {
         
-    }
-	
-	
-	
+    }	
 		
 	void FuncaoC(){
 		Debug.Log("Função C");
+	}
+	
+	void FuncaoA(){
+		Debug.Log("Função A");
+	}
+	
+	void FuncaoB(){
+		Debug.Log("Função B");
 	}
 }
