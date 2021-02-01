@@ -11,7 +11,7 @@ public class TesteCodigo : MonoBehaviour
     {
 		FuncaoA();
 		FuncaoB();
-		FuncaoC();
+		FuncaoCNova();
     }
 
     void Update()
@@ -19,8 +19,8 @@ public class TesteCodigo : MonoBehaviour
         
     }	
 		
-	void FuncaoC(){
-		Debug.Log("Função C");
+	void FuncaoCNova(){
+		Debug.Log("Função C Nova");
 	}
 	
 	void FuncaoA(){
