@@ -15,10 +15,7 @@ public class TesteCodigo : MonoBehaviour
     void Update()
     {
         
-    }
-	
-	
-	
+    }	
 		
 	void FuncaoC(){
 		Debug.Log("Função C");
