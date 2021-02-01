@@ -10,9 +10,11 @@ public class TesteCodigo : MonoBehaviour
     void Start()
     {
 		FuncaoB();
+<<<<<<< HEAD
+		FuncaoCNova();
+=======
 		FuncaoAC();
-		FuncaoD();
-		FuncaoE();
+>>>>>>> 77a0909a63dbaa8582d6e8fd5c7750ba2dd8105f
     }
 
     void Update()
@@ -20,9 +22,14 @@ public class TesteCodigo : MonoBehaviour
         
     }	
 		
+<<<<<<< HEAD
+	void FuncaoCNova(){
+		Debug.Log("Função C Nova");
+=======
 	void FuncaoAC(){
 		Debug.Log("Função C");
 		FuncaoA();
+>>>>>>> 77a0909a63dbaa8582d6e8fd5c7750ba2dd8105f
 	}
 	
 	void FuncaoA(){
@@ -31,13 +38,5 @@ public class TesteCodigo : MonoBehaviour
 	
 	void FuncaoB(){
 		Debug.Log("Função B");
-	}
-	
-	void FuncaoD(){
-		Debug.Log("Função D");
-	}
-	
-	void FuncaoE(){
-		Debug.Log("Função E");
 	}
 }
